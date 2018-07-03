@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name                Automated Steam  Discovery Queue
+// @name                One-Click Steam Discovery-Queue
 // @description         Simple user script for automated one-click Steam discovery queue exploring.
 // @version             1.0.0
 // @namespace           https://github.com/Robbendebiene/One-Click-Steam-Discovery-Queue
 // @updateURL           https://raw.githubusercontent.com/Robbendebiene/One-Click-Steam-Discovery-Queue/master/steam-one-click-queue.user.js
 // @icon                https://store.steampowered.com/favicon.ico
-// @match               *://store.steampowered.com/explore*
+// @match               *://store.steampowered.com/explore/*
 // @run-at              document-end
 // ==/UserScript==
 
