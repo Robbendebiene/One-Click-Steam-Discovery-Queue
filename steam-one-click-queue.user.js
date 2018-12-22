@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name                One-Click Steam Discovery-Queue
 // @description         Simple user script for automated one-click Steam discovery queue exploring.
-// @version             1.0.0
+// @version             1.0.1
 // @namespace           https://github.com/Robbendebiene/One-Click-Steam-Discovery-Queue
 // @updateURL           https://raw.githubusercontent.com/Robbendebiene/One-Click-Steam-Discovery-Queue/master/steam-one-click-queue.user.js
 // @icon                https://store.steampowered.com/favicon.ico
-// @match               *://store.steampowered.com/explore/*
+// @match               *://store.steampowered.com/explore*
 // @run-at              document-end
 // ==/UserScript==
 
@@ -113,6 +113,6 @@ function onSuccess () {
   infoText.textContent = "All queues successfully explored! ";
   const itemLink = document.createElement("a");
         itemLink.textContent = "Click here to reload the page.";
-        itemLink.href = ".";
+        itemLink.href = "javascript:location.reload(true);";
   infoText.appendChild(itemLink);
 }
